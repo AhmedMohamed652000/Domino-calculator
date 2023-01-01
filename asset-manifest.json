@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Domino-calculator/static/css/main.07d39171.css",
+    "main.css": "/Domino-calculator/static/css/main.534575bb.css",
     "main.js": "/Domino-calculator/static/js/main.7bad4948.js",
     "index.html": "/Domino-calculator/index.html",
-    "main.07d39171.css.map": "/Domino-calculator/static/css/main.07d39171.css.map",
+    "main.534575bb.css.map": "/Domino-calculator/static/css/main.534575bb.css.map",
     "main.7bad4948.js.map": "/Domino-calculator/static/js/main.7bad4948.js.map"
   },
   "entrypoints": [
-    "static/css/main.07d39171.css",
+    "static/css/main.534575bb.css",
     "static/js/main.7bad4948.js"
   ]
 }
