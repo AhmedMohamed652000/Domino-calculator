@@ -87,7 +87,7 @@ function App() {
 
 
   return (
-    <Row className='w-100 vh-100 m-0' style={{ background: '#10A19D', paddingRight: ' 2vw' }}>
+    <Row className='w-100 vh-100 m-0 ' style={{ background: '#10A19D', paddingRight: ' 2vw',maxHeight:'100vw' }}>
       <Col className=' h-100 text-white d-flex justify-content-center' xs={6}>
         <Left back1={back1} changeOperator1={changeOperator1} operation1={operation1} operationFun1={operationFun1} backZero1={backZero1} count1={count1} />
       </Col>
