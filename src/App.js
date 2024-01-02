@@ -9,11 +9,11 @@ function App() {
 
   const [count1, secount1] = useState(0)
   const [last1, setlast1] = useState(0)
-  const [operation1, setOpera1] = useState('نقص')
+  const [operation1, setOpera1] = useState('زود')
 
   const [count2, secount2] = useState(0)
   const [last2, setlast2] = useState(0)
-  const [operation2, setOpera2] = useState('نقص')
+  const [operation2, setOpera2] = useState('زود')
 
   const backZero1 = () => {
     addToHistory1('------------------------')
@@ -125,7 +125,7 @@ function App() {
       </Row>
       {isSidebar1Visible && (
         <div style={{ position: 'absolute', top: 0, right: 0, width: '20%', height: '100%' }}>
-          <Sidebar1 history={history1} closeSidebar={() => setIsSidebar1Visible(false)} />
+          <Sidebar1 history={history1} closeSidebar={() => setIsSidebar1Visible(false)}  />
         </div>
       )}
       {isSidebar2Visible && (
