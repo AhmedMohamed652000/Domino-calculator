@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 
-export default function left({back1,count1,backZero1,operationFun1,operation1,changeOperator1}) {
+export default function left({back1,count1,backZero1,operationFun1,operation1,changeOperator1,openSidebar}) {
     return (
         <Row className='h-100 w-100 '>
         <Col xs={3} className='p-3'>
@@ -54,7 +54,7 @@ export default function left({back1,count1,backZero1,operationFun1,operation1,ch
                     <p className='rotate-left'>7</p>
                 </Col>
                 <Col  className='  d-flex justify-content-center align-items-center m-3 properties score p-0'  style={{background:'#FFBF00'}}  xs={12}>
-                <p className='rotate-left'>{count1}</p>
+                <p onClick={openSidebar} className='rotate-left'>{count1}</p>
                 </Col>
                 <Col onClick={(event)=>operationFun1(event.target.innerText)} className='  d-flex justify-content-center align-items-center m-3 properties'  style={{background:'#540375'}}  xs={12}>
                     <p className='rotate-left'>8</p>

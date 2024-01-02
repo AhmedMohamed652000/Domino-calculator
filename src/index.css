@@ -1,6 +1,6 @@
 *
 {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 .rotate-left
 {
@@ -25,7 +25,7 @@
 .score p
 {
   color:black;
-  font-size: 8vw !important;
+  font-size: 9vw !important;
   margin: auto;
 }
 html {
@@ -40,4 +40,44 @@ html {
   position: absolute;
   top: 100%;
   left: 0;
+}
+
+.history-sidebar {
+  background: #f8f9fa;
+  color: #333;
+  padding: 26px;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 20vh;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  width: 43vh;
+    height: 97vh;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.history-sidebar2 {
+  background: #f8f9fa;
+  color: #333;
+  padding: 26px;
+  overflow-y: auto;
+  position: absolute;
+  /*top: 20vh;
+  */right: 0;
+  bottom: 0;
+  left: 36vw;
+  transform: rotate(270deg);
+  transform-origin: bottom left;
+  width: 43vh;
+  height: 97vh;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
 }

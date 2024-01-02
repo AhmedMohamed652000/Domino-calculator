@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
 
-function right({back2,count2,backZero2,operationFun2,operation2,changeOperator2} ) {
+function right({back2,count2,backZero2,operationFun2,operation2,changeOperator2,openSidebar} ) {
     return (
         <Row className='h-100 w-100 '>
 
@@ -10,7 +10,7 @@ function right({back2,count2,backZero2,operationFun2,operation2,changeOperator2}
                     <Col onClick={(event)=>operationFun2(event.target.innerText)}  className='  d-flex justify-content-center align-items-center m-3 properties' style={{background:'#FF7000'}} xs={12}>
                         <p className='rotate-right'>7</p>
                     </Col>
-                    <Col   className='  d-flex justify-content-center align-items-center m-3 properties score p-0 text-black' style={{background:'#FFBF00' }} xs={12}>
+                    <Col onClick={openSidebar}   className='  d-flex justify-content-center align-items-center m-3 properties score p-0 text-black' style={{background:'#FFBF00' }} xs={12}>
                         <p className='rotate-right'>{count2}</p>
                     </Col>
                     <Col onClick={(event)=>operationFun2(event.target.innerText)}  className='  d-flex justify-content-center align-items-center m-3 properties' style={{background:'#FF7000'}} xs={12}>
